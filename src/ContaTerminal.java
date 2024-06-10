@@ -11,7 +11,7 @@ public class ContaTerminal {
 
         System.out.print("Digite o seu nome: ");
         usuario.Nome = scanner.nextLine();
-        scanner.nextLine();
+        usuario.Nome = scanner.nextLine();
 
         System.out.print("Digite o seu saldo: ");
         usuario.Saldo = scanner.nextInt();
